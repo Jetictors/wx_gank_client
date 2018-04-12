@@ -1,0 +1,5 @@
+<!--index.wxml-->
+ <view class="container">
+  <text class="splash_hint_first">福利、妹子、小视频应有尽有</text>
+  <text class="splash_hint_second">只有你想不到，没有做不到</text>
+</view> 

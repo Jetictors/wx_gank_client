@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/splash/splash",
+    "pages/home/index",
+    "pages/girl/girl",
+    "pages/video/video",
+    "pages/mime/mime",
+    "pages/home/android/android",
+    "pages/home/ios/ios",
+    "pages/home/h5/h5"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#EA6F5A",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": ""
+  },
+  "tabBar": {
+    "backgroundColor": "#eeeeee",
+    "color": "#a4a4a4",
+    "selectedColor": "#EA6F5A",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "images/shadow.png",
+        "selectedIconPath": "images/star.png"
+      },
+      {
+        "pagePath": "pages/girl/girl",
+        "text": "妹子",
+        "iconPath": "images/shadow.png",
+        "selectedIconPath": "images/star.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "小视频",
+        "iconPath": "images/shadow.png",
+        "selectedIconPath": "images/star.png"
+      },
+      {
+        "pagePath": "pages/mime/mime",
+        "text": "我的",
+        "iconPath": "images/shadow.png",
+        "selectedIconPath": "images/star.png"
+      }
+    ]
+  }
+}

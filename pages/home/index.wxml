@@ -1,0 +1,24 @@
+<view class="page">  
+  
+  <!--顶部导航栏-->  
+  <view class="swiper-tab">  
+    <view class="tab-item {{currentTab==0 ? 'on' : ''}}" data-current="android" bindtap="swichNav">Android</view>  
+    <view class="tab-item {{currentTab==1 ? 'on' : ''}}" data-current="ios" bindtap="swichNav">IOS</view>  
+    <view class="tab-item {{currentTab==2 ? 'on' : ''}}" data-current="h5" bindtap="swichNav">H5</view>  
+  </view>  
+  
+  <!--内容主体-->  
+  <swiper class="swiper" current="{{currentTab}}" duration="200" bindchange="swiperChange">  
+    <swiper-item>  
+      <view>Android</view>  
+    </swiper-item>  
+
+    <swiper-item>  
+      <view>IOS</view>  
+    </swiper-item>  
+    
+    <swiper-item>  
+      <view>H5</view>  
+    </swiper-item>  
+  </swiper>  
+</view>  
